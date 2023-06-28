@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표현식/입력창</title>
+</head>
+<body>
+    <script>
+        // inch * 2.54 //연산식은 식입니다.
+        // "안녕하십니까"; //문자열도 식입니다 (문자열 = "";)
+        // 5 //숫자도 식입니다. (숫자는 "" 안함)
+
+        //alert문 : alert("안녕하세요?") - 기본문법
+        // alert("안녕하세요?"); //알림창으로 나오는거 확인만나옴
+
+        //확인창 출력 confirm(메세지) - 기본문법
+        // var reply = confirm("정말 배경이미지를 바꾸겠습니까?"); //확인 취소같이나옴
+
+        //프롬프트 창에서 입력받기  prompt(메세지) or prompt(메세지,기본값) - 기본문법
+        var name = prompt("이름을 입력하세요"); //확인,취소 같이나옴 / 기본값은 이름입력하는칸에 셋팅됨
+        document.write("<b><big>" + name  + "</big></b>님, 환영합니다.") // 문자열에서사용하는 +는 연결연산자
+
+        //연습
+        var love = prompt("균 say : 당신은 누구입니까?")
+        document.write("<b><big>" + love + "</big></b> 반가워💜")
+
+    console.log(name + "님, 환영합니다.");
+
+    
+    </script>
+</body>
+</html>
